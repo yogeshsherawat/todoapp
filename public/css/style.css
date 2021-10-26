@@ -1,1 +1,69 @@
 /*write css here*/
+
+
+header{
+    padding-top:2%;
+    background-color: lightseagreen;
+    padding-bottom: 4g%;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+input[name="todoinput"]{
+    width: 80%;
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-left: 5%;
+}
+
+#add-btn{
+    background-color: gray;
+    width:10%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+#options{
+    display: flex;
+    
+}
+.option{
+    
+    padding: 10px 30px;
+    flex: 33.333%;
+}
+.active{
+    color:lightseagreen;
+    border-bottom: 1px solid lightseagreen;
+}
+
+.todo{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#todos >:nth-child(even){
+    background-color: gray;
+}
+
+.tick{
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    background:none;
+    border:none;
+}
+.cross{
+    background:none;
+    border:none;
+    padding-right: 10px;
+}
+
+.complete{
+    text-decoration:line-through;
+}
+
+
